@@ -4,7 +4,7 @@ import detectron2.data.transforms as T
 #import imgaug.augmenters as iaa
 import numpy as np
 
-import deepdisc.astrodet.detectron as detectron_addons
+import DeepDiscVR.src.deepdisc.astrodet.detectron as detectron_addons
 import random
 
 
