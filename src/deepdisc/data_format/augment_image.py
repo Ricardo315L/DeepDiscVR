@@ -1,7 +1,7 @@
 """Utilities for augmenting image data."""
 
 import detectron2.data.transforms as T
-import imgaug.augmenters as iaa
+#import imgaug.augmenters as iaa
 import numpy as np
 
 import deepdisc.astrodet.detectron as detectron_addons
