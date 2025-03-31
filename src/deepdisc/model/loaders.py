@@ -6,8 +6,8 @@ import numpy as np
 import torch
 from detectron2.data import detection_utils as utils
 
-import deepdisc.astrodet.astrodet as toolkit
-import deepdisc.astrodet.detectron as detectron_addons
+import DeepDiscVR.src.deepdisc.astrodet.astrodet as toolkit
+import DeepDiscVR.src.deepdisc.astrodet.detectron as detectron_addons
 
 
 class DataMapper:
