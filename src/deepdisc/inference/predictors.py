@@ -1,4 +1,4 @@
-import deepdisc.astrodet.astrodet as toolkit
+import DeepDiscVR.src.deepdisc.astrodet.astrodet as toolkit
 
 
 def return_predictor(cfg, checkpoint=None):
