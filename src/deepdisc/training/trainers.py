@@ -9,7 +9,7 @@ from detectron2.engine import DefaultTrainer, SimpleTrainer
 from detectron2.solver import build_lr_scheduler, build_optimizer
 from detectron2.utils import comm
 
-from deepdisc.astrodet import detectron as detectron_addons
+from DeepDiscVR.src.deepdisc.astrodet import detectron as detectron_addons
 
 class LazyAstroTrainer(SimpleTrainer):
     def __init__(self, model, data_loader, optimizer, cfg):
