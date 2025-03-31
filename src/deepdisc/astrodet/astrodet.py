@@ -43,8 +43,8 @@ from typing import Optional
 import cv2
 import detectron2.data.transforms as T
 import detectron2.utils.comm as comm
-import imgaug.augmenters as iaa
-import imgaug.augmenters.flip as flip
+#import imgaug.augmenters as iaa
+#import imgaug.augmenters.flip as flip
 
 # from google.colab.patches import cv2_imshow
 import matplotlib.pyplot as plt
